@@ -3,9 +3,9 @@ import React from 'react';
 function Joke(props) {
   return (
   	<div>
-    <div style={{display: !props.contact.question && "none" }}> Question: {props.contact.question}</div>
-    <div style={{color: !props.contact.question && "grey" }}> Answer: {props.contact.answer}</div>
-    <hr/>
+        <div style={{display: !props.question && "none" }}> Question: {props.question}</div>
+        <div style={{color: !props.question && "grey" }}> Answer: {props.answer}</div>
+        <hr/>
     </div>
   );
 }
